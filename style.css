@@ -4,7 +4,7 @@ html {
 
 body {
 	background-image: url("bg/phoneBG.png");
-	background-size: 100%;
+	background-size: 100vh;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -111,3 +111,103 @@ a {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+@media only screen and (min-width: 768px) {
+	body {
+		background-image: url("bg/mainBG.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		margin-top: 10rem;
+		margin-bottom: 10rem;
+	}
+	h1 {
+		font-size: 7rem;
+	}
+	h2 {
+		font-size: 5rem;
+	}
+	h3 {
+		font-size: 2.5rem;
+	}
+	.img {
+		height: 17rem;
+		width: 30rem;
+		padding: .5rem;
+	}
+	
+	.FerrariWig {
+		height: 30rem;
+		width: 20rem;
+	}
+	.video {
+		height: 18rem;
+		width: 30rem;
+	}
+	p {
+		font-size: 2rem
+	}
+	a {
+		font-size: 1.5rem;
+	}
+	li {
+		font-size: 2.5rem;
+	}
+ }
+
+ @media only screen and (min-width: 1440px) {
+	body {
+		margin-bottom: 12rem;
+		margin-left: 10rem;
+		margin-right: 10rem;
+	}
+	h1 {
+		font-size: 9rem;
+	}
+	h2 {
+		font-size: 6rem;
+	}
+	h3 {
+		font-size: 5rem;
+	}
+	p {
+		font-size: 2.75rem;
+	}
+	a {
+		font-size: 2.25rem;
+	}
+	li {
+		font-size: 3.25;
+	}
+	.img {
+		height: 30rem;
+		width: 45rem;
+		padding: .5rem;
+	}
+	
+	.FerrariWig {
+		height: 40rem;
+		width: 35rem;
+	}
+	.video {
+		height: 45rem;
+		width: 80rem;
+	}
+	.table_data_text {
+		background-color: white;
+		padding: 1.5rem;
+		border-radius: 1rem;
+		border-color: black;
+		border-width: 2px;
+		justify-content: center;
+		align-items: center;
+	}
+ }
+
+ @media only screen and (min-width: 1880px) {
+	body {
+		margin-left: 20rem;
+		margin-right: 20rem;
+	}
+ }
