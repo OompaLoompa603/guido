@@ -1,0 +1,113 @@
+html {
+	font-size: 10px;
+}
+
+body {
+	background-image: url("bg/phoneBG.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+h1 {
+	font-family: 'Magneto';
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 10px black;
+	font-size: 3rem;
+}
+
+h2 {
+	font-family: 'Magneto';
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 10px black;
+	font-size: 2rem;
+}
+
+h3 {
+	font-family: 'Magneto';
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.img {
+	height: 12.5rem;
+	width: 15rem;
+	padding: .5rem;
+}
+
+.FerrariWig {
+	height: 15rem;
+	width: 12.5rem;
+}
+
+p {
+	font-size: 1.11rem;
+	font-family: carsTextFont;
+}
+
+li {
+	font-size: 1.25rem;
+	font-family: carsTextFont;
+}
+
+a {
+	background-color: white;
+	padding: 1rem;
+	border-radius: 1rem;
+}
+
+.video {
+	height: 18rem;
+	width: 30rem;
+}
+
+.table_data_text {
+	background-color: white;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	border-color: black;
+	border-width: 2px;
+	justify-content: center;
+	align-items: center;
+}
+
+/* CUSTOM FONT */
+
+@font-face {
+  font-family: carsTextFont;
+  src: url(TheSimpleOne.otf);
+}
+@font-face {
+    font-family: 'Magneto';
+    src: url('Magneto-Bold.woff2') format('woff2'),
+        url('Magneto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* CUSTOM SCROLLBAR */
+
+::-webkit-scrollbar {
+	width: 20px;
+}
+::-webkit-scrollbar-track {
+	background-image: url(road.png);
+	background-size: contain;
+	background-repeat: repeat;
+	background-position: center;
+}
+::-webkit-scrollbar-thumb {
+	background-image: url(mcqueen.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
